@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Tayar": {
+      "applicationId": "8a9obA98R1LT83MgJPqfreeTpxR1BoTLRFoRjVks"
+    },
+    "_default": {
+      "link": "Tayar"
+    }
+  }
+}

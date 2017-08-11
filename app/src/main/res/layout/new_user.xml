@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_alignParentEnd="true"
+        android:hint="Username"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_alignParentEnd="true"
+        android:hint="Password"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText4"
+        android:hint="Phone Number"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:hint="Chain Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_alignEnd="@+id/editText6"
+        android:hint="Branch 1"
+        android:layout_below="@+id/editText6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_alignEnd="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:hint="Branch 2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#44A819"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All fields are mandatory."
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText9" />
+
+
+</RelativeLayout>
